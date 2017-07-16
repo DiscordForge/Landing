@@ -1,0 +1,79 @@
+/* HTML5
+-------------------------------------------------------------- */
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+/* Jumbotron Main
+-------------------------------------------------------------- */
+.jumbotron.jumbotron-main { 
+	width: 100%;
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	padding-top: 0;
+	padding-bottom: 0;
+	position: relative;
+	margin:0;
+}
+
+#zodiac {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.67)), url("../img/parallax.png"), no-repeat center center fixed;
+	background-position: 50% 50%;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 125%;
+}
+
+.jumbotron.jumbotron-main a {
+    color: #fff;
+}
+
+.center-vertically {
+    display: table-cell;
+    vertical-align: middle;
+	height: 100%;
+}
+
+.center-vertically-holder { 
+	display: table;
+	height: 100%;
+}
+
+.card {
+    background: #5572DA;
+	color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+	border-radius: 2px;
+	padding: 20px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.cc-btn.cc-dismiss {
+	transition: 0.3s;
+}
+
+.cc-btn.cc-dismiss:hover {
+	background-color: #14a7d0;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.reveal {
+	visibility: visible;
+	-webkit-transform: translateY(0) scale(1);
+	opacity: 1;
+	transform: translateY(0) scale(1);
+	opacity: 1;
+	-webkit-transition: -webkit-transform 1.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0.05s, opacity 1.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0.05s;
+	transition: transform 1.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0.05s, opacity 1.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0.05s;
+}
