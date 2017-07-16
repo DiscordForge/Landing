@@ -61,25 +61,20 @@ $('a[href*="#"]')
 })();
 /* Cookie Consent Start
 -------------------------------------------------------------- */
-(function() {
-	if (readCookie("cookieconsent") == undefined) {
-		window.cookieconsent.initialise({
-			"palette": {
-				"popup": {
-					"background": "#252e39"
-				},
-				"button": {
-					"background": "transparent",
-					"text": "#14a7d0",
-					"border": "#14a7d0"
-				}
-			},
-			"content": {
-				"message": "DiscordForge uses cookies to ensure you get the best experience on the website."
-			}
-		});
-		document.cookie = "cookieconsent=Do not remove this cookie.";
+window.cookieconsent.initialise({
+	"palette": {
+		"popup": {
+			"background": "#252e39"
+		},
+		"button": {
+			"background": "transparent",
+			"text": "#14a7d0",
+			"border": "#14a7d0"
+		}
+	},
+	"content": {
+		"message": "DiscordForge uses cookies to ensure you get the best experience on the website."
 	}
-})();
+});
 /* Cookie Consent End
 -------------------------------------------------------------- */
