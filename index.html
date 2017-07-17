@@ -1,67 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>DiscordForge</title>
-		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
-		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-		<link rel="stylesheet" href="https://bootswatch.com/superhero/bootstrap.min.css">
-		<link rel="stylesheet" href="css/discordforge.css">
-		<link rel="icon" href="img/favicon.ico" type="image/x-icon">
-		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
-		<!--[if lt IE 9]>
-			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-		<![endif]-->
-	</head>
-	<body data-spy="scroll" data-target=".navbar">
-		<nav class="navbar navbar-default navbar-fixed-top">
-			<div class="container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="#">DiscordForge</a>
-				</div>
-				<div class="collapse navbar-collapse" id="discordforge-navbar">
-					<ul class="nav navbar-nav">
-						<li class="active"><a href="#home">Home</a></li>
-						<li><a href="#about">About</a></li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-		<div class="jumbotron jumbotron-main" id="home">
-			<canvas id="zodiac"></canvas>
-			<div class="container center-vertically-holder">
-				<div class="center-vertically">
-					<div class="col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3 text-center">
-						<div class="card">
-							<h1 class="reveal" data-sr-id="46" style="visibility: visible;  -webkit-transform: translateY(0) scale(1); opacity: 1;transform: translateY(0) scale(1); opacity: 1;-webkit-transition: -webkit-transform 1.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0.05s, opacity 1.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0.05s; transition: transform 1.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0.05s, opacity 1.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0.05s; ">
-							<img src="img/discordforge.png" height="128"></img><br>
-								DiscordForge
-							</h1>
-							<p class="reveal" data-sr-id="2">
-								A modding utility for Discord.
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
+<html>
+<head>
+	<!-- Title -->
+	<title>DiscordForge &mdash; Home</title>
+
+	<!-- Meta -->
+    <meta charset='utf-8' />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+    <meta name='theme-color' content='#23272A' />
+	<meta name="description" content="People like modding, don't they? DiscordForge is a toolkit that allows you to create and install your own plugins into the Discord client.">
+	<meta name="keywords" content="discord,client,discordclient,forge,discordforge">
+	<meta name="author" content="LewisTehMinerz & Jakeoid">
+
+	<!-- Stylesheets -->
+	<link href="css/stylesheet.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+
+	<header>
+
+		<img src="img/logo.png" />
+
+	</header>
+
+	<section>
+
+		<div class="header">
+			<h1>
+				People like modding, don't they?
+			</h1>
+			<h2>
+				DiscordForge brings that possibility to the ever-expanding Discord platform.
+			</h2>
 		</div>
-		<div class="container" id="about">
-			<h2>What is DiscordForge?</h2>
-			<p>
-				People like modding, don't they? DiscordForge brings that possibility to the ever-expanding Discord platform.
-			</p>
-		</div>
-		<script src="js/zodiac.js"></script>
-		<script src="js/app.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	</body>
+
+	</section>
+
+	<section>
+
+		<h3>About</h3>
+
+		<p>
+			DiscordForge is a toolkit that allows you to create and install your own plugins into the Discord client, whether it be Stable, PTB, Canary, and (if you got it working) Development.
+			We try to make the process simple by using the language that Discord is using: JavaScript.
+		</p>
+
+	</section>
+
+	<section>
+
+		<h3>How does it work?</h3>
+
+		<p>
+			When DiscordForge installs itself into your client, it modifies your client in a way that allows it to update DiscordForge without having to put it back in your client every single time you update it. Just update DiscordForge and restart Discord. Simples!
+		</p>
+
+	</section>
+
+	<section>
+
+		<h3>Installation</h3>
+
+		<p>
+			The overall installation of the client is actually rather simple.
+		</p>
+
+		<ol>
+			<li><code>get git</code> <a href="#">(here)</a></li>
+			<li><code>get node</code> <a href="#">(here)</a></li>
+			<li><code>mkdir discord-forge</code></li>
+			<li><code>git clone https://github.com/DiscordForge/DiscordForge discord-forge</code></li>
+			<li><code>node setup</code></li>
+		</ol>
+
+		<p>
+			And you're done! If you want to install it into your client, type into a terminal <code>discordforge inject</code>
+		</p>
+
+	</section>
+
+	<section>
+
+		<h3>More Help</h3>
+
+		<p>
+			For anything more you need you can find it inside of the <a href="https://github.com/DiscordForge/DiscordForge/wiki">Github Wiki</a>!
+		</p>
+
+	</section>
+
+	<footer>
+		<p>This site is not officially endorsed in anyway by the Discord Team.</p>
+		<p>Site created by <a href="https://github.com/jakeoid">Jakeoid#6284</a></p>
+	</footer>
+
+</body>
+
+<!-- Javascript -->
+<!-- Bottom of the document to increase page loadtimes -->
+<script src="js/zodiac.js"></script>
+<script src="js/app.js"></script>
+
 </html>
