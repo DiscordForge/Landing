@@ -108,6 +108,17 @@ section {
   section ol li {
     height: 50px; }
 
+/** COOKIE BUTTONS
+----------------------------- **/
+
+.cc-btn.cc-dismiss {
+  transition: 0.3s;}
+
+.cc-btn.cc-dismiss:hover {
+  background-color: #14a7d0;
+  color: #ffffff;
+  text-decoration: none;}
+	
 /** FOOTER
 ----------------------------- **/
 footer {
