@@ -1,4 +1,4 @@
-# DiscordForge
+# DiscordForge [![Codacy Badge](https://api.codacy.com/project/badge/Grade/db0d431a986c4b169e2d39b45a917e73)](https://www.codacy.com/app/LewisTehMinerz/Landing?utm_source=github.com&utm_medium=referral&utm_content=DiscordForge/Landing&utm_campaign=badger)
 
 A super clean landing page thats styled similar to the Discord Asthetic. Goes over basic information on how to install the DiscordForge to your client.
 
